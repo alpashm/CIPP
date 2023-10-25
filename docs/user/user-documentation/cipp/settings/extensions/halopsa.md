@@ -24,6 +24,13 @@ description: Configuring the HaloPSA integration
 
 Enter the information found in **Configuration** > **Integrations** > **Halo PSA API** in CIPP. If you are self-hosting Halo, you can leave the HaloPSA Tenant blank.
 
+Example Information
+HaloPSA Resource Server URL - https://YourHaloURL/api
+HaloPSA Authorisation Endpoint URL - https://YourHaloURL/auth
+HaloPSA Tenant - You can find this here https://YourHaloURL/config/integrations/api
+HaloPSA Ticket Type ID - Go to Ticket types on Halo, Click the ticket type you want, URL should show the ticket type ID e.g. tickettype?id=21 (you would enter 21 in CIPP)
+Halo Client ID and Client secret can be created under API **create new application and choose Client ID and Secret (Services)**
+
 After entering the credentials, click **Test Extension.** If the test is successful Alerts will automatically become a HaloPSA ticket.
 
 ### Feature Requests / Ideas
